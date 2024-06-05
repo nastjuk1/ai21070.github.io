@@ -879,4 +879,26 @@ bottom: 260px;
     margin-right: 10px;
 }
 }
+@media only screen and (max-width: 482px) {
+    .introduction-inner {
+        gap: 0px; 
+    }
+    .introduction-images p {
+        margin-left: 0px;
+    }
 
+    .left {
+    position: absolute;
+    left: 20px;
+    }
+
+    .right {
+        position: absolute;
+        right: 0px;
+        }
+
+        .introduction-images img {
+            margin-left: 5px;
+        }
+
+}

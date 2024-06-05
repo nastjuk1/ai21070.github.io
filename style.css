@@ -1,0 +1,882 @@
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navigation {
+    display: flex;
+}
+
+.nav-menu li {
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -.48px;
+    margin-right: 20px;
+}
+
+.site-navigation .nav-menu {
+    list-style-type: none;
+    margin-block-start: 0px;
+}
+
+.site-navigation .nav-menu li a {
+    text-decoration: none;
+    color: #5B5654;
+}
+.site-header {
+  position: relative;
+}
+
+.site-header {
+    background-color: #B3A68B;
+    background-blend-mode: multiply; 
+    background-size: cover;
+    background-position: center;
+}
+
+
+.svg1 {
+  position: absolute;
+  width: 195.47px;
+  height: 345.12px;
+  top: 180px;
+}
+
+.svg2 {
+  position: absolute;
+  right: 0;
+  width: 216.39px;
+  height: 510.51px;
+  top: 100px;
+}
+
+.site-header::after {
+  right: 0;
+  transform: rotate(180deg);
+}
+.site-title {
+    display: flex;
+    margin-top:10px;
+}
+.site-title h3 {
+    margin-bottom:80px;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-feature-settings: "calt" off;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -.96px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.introduction h3, .admission h3, .studylife h3 {
+    color: black;
+}
+
+h2 {
+    font-size: 32px;
+    color: black;
+    letter-spacing: -.64px;
+    font-weight: 600;
+    font-family: Poppins;
+    text-align: center;
+    font-style: normal;
+    line-height: 140%;
+}
+.line {
+    margin-top:50px;
+}
+.introduction-images img {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+p {
+    font-size: 24px;
+    color: black;
+    letter-spacing: -.64px;
+    font-weight: 400;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: 110%;
+}
+
+.introduction-images p {
+    margin-left:50px;
+    max-width: 1100px;
+    text-align: center;
+}
+.introduction-images {
+    align-items: center; 
+    margin-right:10px;
+    min-height: 340px;
+}
+main {
+    margin-left:200px;
+    margin-right:200px;
+    overflow: hidden;
+}
+.introduction-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.introduction, .admission, .studylife {
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+}
+html {
+    transition: background-color 0.4s ease;
+  }
+.switch {
+    position: relative;
+    width: 50px;
+    height: 24px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  
+  .switch input {display:none;}
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: url('icons8-sun.svg');
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider:before {
+    content: url('moon-white.svg');
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+  input:checked + .slider {
+    background-color: #5B5654;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #5B5654;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .introduction-images {
+    display: none;
+  }
+  
+  .introduction-images.active {
+    display: flex;
+  }
+  
+  .right, .left {
+    cursor: pointer;
+  }
+
+  .inactive {
+    opacity: 0.2; /* Например, делаем кнопку менее насыщенной */
+    cursor: default; /* Запрещаем взаимодействие с неактивной кнопкой */
+}
+.infromation-inner-second {
+    margin-bottom:50px;
+}
+.information {
+    display: flex;
+}
+.information:nth-child(2) {
+    margin-top: 60px;
+}
+.information:nth-child(2) img {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 20px;
+    
+}
+
+
+.information:first-child img {
+    margin-top: 100px;
+    margin-right: 40px;
+    margin-left:20px;
+}
+
+.admission-inner img:first-child {
+    margin-left:40px;
+}
+.information img, .admission-inner img {
+    width: 292.5px;
+    height: 520px;
+    
+}
+
+.admission-inner {
+    display: flex;
+    position: relative;
+}
+.admission-inner-text2 {
+    background-color: #B3A68B;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.admission-inner-text2 p{
+    text-align: center;
+    margin-right:160px;
+    margin-left:160px;
+    margin-bottom: 60px;
+}
+
+.admission-inner-text2 h2{
+    margin-top: 60px;
+}
+.admission-inner img { 
+    margin-top:105px;
+}
+
+footer li {
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: -.48px;
+        margin-top:50px;
+        margin-bottom:50px;
+}
+
+footer ul, footer text {
+    padding: 0;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #5B5654;
+}
+footer {
+    margin-top:120px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    background-color: #B3A68B;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 50px; 
+}
+
+.copy {
+    background-color: #5B5654;
+    padding: 10px;
+}
+footer .copy text {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 48px;
+    letter-spacing: -.48px;
+}
+
+.admission-inner-text2 h2:before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 310px;
+    height: 100%;
+    background-image: url('Frame 23.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.admission-inner-text2 h2.dark-mode::before {
+    background-image: url('Frame 23_1.svg');
+}
+.admission-inner-text2 h2:after {
+    content: "";
+    background-image: url('Frame 24.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    width: 283px;
+    height: 100%;
+}
+
+.admission-inner-text2 h2.dark-mode:after{
+    background-image: url('Frame 24_1.svg');
+}
+
+.admission-inner-text2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admission-inner-text2 h2 {
+    text-align: center;
+}
+
+.admission-inner-text2 p {
+    max-width: 1400px;
+    text-align: center;
+}
+.admission-inner-text a {
+    cursor: pointer;
+    color:#2B71D4;
+}
+.admission-inner-text2 p:before {
+    content: "";
+    position: absolute;
+    top: 370px;
+    left: 0;
+    width: 179px;
+    height: 100%; 
+    background-image: url('Frame 25.svg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.admission-inner-text2 p.dark-mode::before {
+    background-image: url('Frame 25_1.svg');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.groupbottom {
+    position: fixed;
+    bottom: 240px;
+    right: 20px;
+    width: 79px;
+    height: 79px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+
+}
+
+.groupbottom.visible {
+    display: block;
+    opacity: 1;
+}
+
+.studylife:before {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    margin-top:-2px;
+    width: 402px; 
+    height: 100%; 
+    background-image: url('Group\ 3.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+
+.studylife::after {
+    content: ""; /* Добавляем содержимое для псевдоэлемента */
+    position: absolute; /* Позиционируем псевдоэлемент абсолютно */
+     /* Выравниваем по верхнему краю */
+    right: 0; 
+    margin-top:-2px;/* Выравниваем по левому краю */
+    width: 202px; /* Ширина изображения */
+    height: 100%; /* Высота будет равна высоте контейнера */
+    background-image: url('Group\ 4.svg'); /* Путь к изображению */
+    background-size: contain; /* Растягиваем изображение по размеру псевдоэлемента */
+    background-repeat: no-repeat; /* Запрещаем повтор изображения */
+}
+
+.studylife.dark-mode::after {
+    background-image: url('Group4_1.svg');
+}
+
+.studylife.dark-mode::before {
+    background-image: url('Group3_1.svg');
+}
+
+.studylife-inner, .information, .iestasanas-process, .admission-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.studylife-inner img{
+    width: 292.5px;
+    height: 520px;
+    margin-top:95px;
+   /*box-shadow: 10px 10px 10px rgba(107, 153, 218, 0.7); */
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.studylife-text, .admission-inner-text {
+    margin-right: 40px;
+    margin-left:50px;
+    max-width: 1120px;
+}
+
+.infromation-inner {
+    max-width: 1120px;
+}
+.admission-inner img {
+    margin-bottom:60px;
+}
+.admission-inner-text::before {
+    content: ""; /* Добавляем содержимое для псевдоэлемента */
+    position: absolute; /* Позиционируем псевдоэлемент абсолютно */
+     /* Выравниваем по верхнему краю */
+    margin-left:-360px;
+    margin-top:80px;/* Выравниваем по левому краю */
+    width: 95px; /* Ширина изображения */
+    height: 95px; /* Высота будет равна высоте контейнера */
+    background-image: url('Vector\ 26.svg'); /* Путь к изображению */
+    background-size: contain; /* Растягиваем изображение по размеру псевдоэлемента */
+    background-repeat: no-repeat; /* Запрещаем повтор изображения */
+}
+
+.infromation-inner-first::before {
+    content: ""; /* Добавляем содержимое для псевдоэлемента */
+    position: absolute; /* Позиционируем псевдоэлемент абсолютно */
+     /* Выравниваем по верхнему краю */
+    margin-left:-360px;
+    margin-top:80px;/* Выравниваем по левому краю */
+    width: 95px; /* Ширина изображения */
+    height: 95px; /* Высота будет равна высоте контейнера */
+    background-image: url('Vector\ 26.svg'); /* Путь к изображению */
+    background-size: contain; /* Растягиваем изображение по размеру псевдоэлемента */
+    background-repeat: no-repeat; /* Запрещаем повтор изображения */
+}
+
+.infromation-inner-second {
+    overflow: hidden;
+}
+
+.infromation-inner-second::before {
+    content: "";
+    position: absolute;
+    margin-top: 150px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%; /* Изменено на 100% */
+    background-image: url('kvadrats\ \(2\).svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.infromation-inner-second.dark-mode::before {
+    background-image: url('kvadrats\ \(2\)_1.svg');
+}
+
+.studylife-inner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.studylife-text1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.studylife-text1 img {
+    width: 151px;
+    height: 270px;
+    margin-top:25px;
+}
+
+.studylife-text1 p{
+    margin-left:40px;
+}
+
+
+
+footer::before {
+    content: "";
+    position: absolute;
+    margin-top: -300px;
+    left: 0;
+    right: 0;
+    width: 304.36px;
+    height: 304.09px;
+    background-image: url('Group\ 6.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+}
+
+footer.dark-mode::before {
+    background-image: url('Group\ 6_1.svg');
+}
+
+footer::after {
+    content: "";
+    position: absolute;
+    margin-top: -467px;
+    right: 0;
+    width: 339.36px;
+    height: 253.27px; /* Изменено на 100% */
+    background-image: url('Group\ 5.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+}
+
+footer.dark-mode::after {
+    background-image: url('Group\ 5_1.svg');
+}
+/*
+@media only screen and (max-width: 801.01px) { 
+    .information:first-child img {
+        margin-top: 130px;
+    }
+    .information:nth-child(2) img {
+        margin-top: 130px;
+    }
+}
+*/
+@media only screen and (max-width: 1207.01px) {
+    .admission-inner img {
+        margin-top: 135px;
+    }
+    .admission-inner-text::before {
+        margin-top: 110px;
+        margin-left: -269px;
+    }
+}
+@media only screen and (max-width: 1087.1px) {
+    .studylife-inner img {
+        margin-top: 135px;
+    }
+
+}
+@media only screen and (max-width: 1006.01px) {
+    .admission-inner img {
+        margin-top: 165px;
+    }
+    .admission-inner-text::before {
+        margin-top: 140px;
+        margin-left: -269px;
+    }
+}
+
+@media only screen and (max-width: 1430px) {
+    .infromation-inner-first::before {
+        margin-left: -270px;
+        margin-top: 75px;
+    }
+    .infromation-inner-second::before {
+        margin-top: 110px;
+    }
+    .admission-inner-text::before {
+        margin-left: -270px;
+    }
+    .admission-inner-text2 p:before {
+        top: 310px;
+    }
+    .information img, .admission-inner img, .studylife-inner img {
+        width: 202.5px;
+        height: 370px;
+    }
+    .svg1 {
+        width: 155.47px;
+        height: 305.12px;
+        top: 130px; 
+    }
+    .svg2 {
+        width: 176.39px;
+        height: 470.51px;
+        top: 100px;
+    }
+    .site-title h3{
+        width: 540px;
+        text-align: center;
+    }
+
+    .introduction-images {
+        flex-direction: column;
+    }
+    .introduction-inner {
+        margin-top:50px;
+    }
+    .introduction-images p, p{
+        font-size: 18px;
+    }
+
+    main {
+        margin-left:170px;
+        margin-right: 170px;
+    }
+
+    footer::before {
+        width: 209.36px;
+        height: 214.09px;
+        margin-top: -205px;
+    }
+    
+    .studylife:before {
+        width: 322px;
+        height: 100%;
+    }
+    h3 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    main {
+        margin-left:120px;
+        margin-right: 120px;
+    }
+    .studylife-inner img {
+        margin-top: 95px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    main {
+        margin-left:65px;
+        margin-right: 65px;
+    }
+.information {
+    flex-direction: column;
+    justify-content: center;
+}
+.infromation-inner-first::before {
+    display: none;
+}
+.information:first-child img {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top:10px;
+}
+
+.information, .admission-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admission-inner img:first-child {
+    width: 50%;
+    height: 50%;
+}
+.information img {
+    order: 2;
+    width: 50%;
+    height: 50%;
+}
+
+.information .infromation-inner {
+    order: 1;
+}
+.information:nth-child(2) img {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.infromation-inner-second {
+    margin-bottom: 0px;
+}
+
+.admission-inner {
+    flex-direction: column;
+}
+
+.admission-inner img {
+    order: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.admission-inner .infromation-inner {
+    order: 1;
+}
+.admission-inner img:first-child {
+    margin-left: 0px;
+}
+
+.admission-inner img {
+    margin-top: 10px; 
+
+}
+
+.admission-inner-text {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.admission-inner-text2 p {
+    margin-left:65px;
+    margin-right: 65px;
+}
+.admission-inner-text2 p:before {
+    display: none;
+}
+.admission-inner-text2 h2:before {
+    width: 220px;
+    height: 100%;
+}
+.admission-inner-text2 h2::after {
+    width: 220px;
+    height: 100%;
+}
+
+h3 {
+    text-align: center;
+}
+.studylife-inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.studylife:before {
+    width: 322px;
+    height: 100%;
+}
+.studylife-text {
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 1120px;
+}
+.studylife-inner {
+    align-items: center;
+}
+.studylife-inner img {
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    /* box-shadow: 10px 10px 10px rgba(107, 153, 218, 0.7); */
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+.studylife:before {
+    width: 122px;
+    height: 100%;
+}
+.studylife::after {
+    width: 82px;
+    height: 100%;
+}
+.studylife-text1 {
+    flex-direction: column;
+}
+.studylife-text1 p {
+    margin-left: 0px;
+}
+.studylife-text1 {
+    align-items: center;
+}
+.studylife-text1 img {
+    width: 40%;
+    height: 40%;
+    order: 2;
+}
+.studyimg img {
+    margin-top: 40px;
+}
+footer::before {
+    width: 129.36px;
+    height: 134.09px;
+    margin-top: -130px;
+}
+footer::after {
+    margin-top: -395px;
+    width: 139.36px;
+    height: 153.27px;
+}
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+}
+footer nav ul li {
+    margin-right: 0px;
+}
+footer li {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.svg1 {
+    width: 105.47px;
+    height: 255.12px;
+    top: 130px; 
+}
+.svg2 {
+    width: 126.39px;
+    height: 420.51px;
+    top: 100px;
+}
+.groupbottom {
+width: 45px;
+height: 45px;
+right:10px;
+bottom: 260px;
+}
+.nav-menu li {
+    font-size: 18px;
+    margin-right: 10px;
+}
+}
+

@@ -923,4 +923,7 @@ bottom: 260px;
     .site-navigation .nav-menu {
     margin-right: 30px;
     }
+    .infromation-inner-second::before {
+        margin-top: 310px;
+    }
 }

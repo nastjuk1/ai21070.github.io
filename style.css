@@ -910,6 +910,7 @@ bottom: 260px;
 .nav-menu li {
     line-height: 28px;
     text-align: center;
+    margin-left: 10px;
 }
     .admission-inner-text2 h2:before {
         width: 180px;
@@ -918,5 +919,8 @@ bottom: 260px;
     .admission-inner-text2 h2::after {
         width: 190px;
         height: 100%;
+    }
+    .site-navigation .nav-menu {
+    margin-right: 30px;
     }
 }

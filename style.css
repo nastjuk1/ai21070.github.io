@@ -910,5 +910,12 @@ bottom: 260px;
 .nav-menu li {
     line-height: 0px; 
 }
-
+    .admission-inner-text2 h2:before {
+        width: 180px;
+        height: 100%;
+    }
+    .admission-inner-text2 h2::after {
+        width: 190px;
+        height: 100%;
+    }
 }

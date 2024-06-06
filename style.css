@@ -900,5 +900,8 @@ bottom: 260px;
         .introduction-images img {
             margin-left: 5px;
         }
+    .svg1, .svg2 {
+        display:none;
+    }
 
 }

@@ -903,5 +903,9 @@ bottom: 260px;
     .svg1, .svg2 {
         display:none;
     }
+    .site-title {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
 
 }
